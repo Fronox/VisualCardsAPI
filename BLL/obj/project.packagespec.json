@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/BLL/BLL.csproj",
+    "projectName": "BLL",
+    "projectPath": "/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/BLL/BLL.csproj",
+    "outputPath": "/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/BLL/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/DAL.csproj": {
+            "projectPath": "/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/DAL.csproj"
+          },
+          "/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/Domain.csproj": {
+            "projectPath": "/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/Domain.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

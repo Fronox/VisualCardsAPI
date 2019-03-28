@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/fronox/Education/5 course/Enterprise/VisualCards/Run/Run.csproj",
+    "projectName": "Run",
+    "projectPath": "/home/fronox/Education/5 course/Enterprise/VisualCards/Run/Run.csproj",
+    "outputPath": "/home/fronox/Education/5 course/Enterprise/VisualCards/Run/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/home/fronox/Education/5 course/Enterprise/VisualCards/BLL/BLL.csproj": {
+            "projectPath": "/home/fronox/Education/5 course/Enterprise/VisualCards/BLL/BLL.csproj"
+          },
+          "/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/DAL.csproj": {
+            "projectPath": "/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/DAL.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

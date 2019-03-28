@@ -1,0 +1,48 @@
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/bin/Debug/netcoreapp2.2/DAL.deps.json
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/bin/Debug/netcoreapp2.2/DAL.dll
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/bin/Debug/netcoreapp2.2/DAL.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/bin/Debug/netcoreapp2.2/Domain.dll
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/bin/Debug/netcoreapp2.2/Domain.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/obj/Debug/netcoreapp2.2/DAL.csprojAssemblyReference.cache
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/obj/Debug/netcoreapp2.2/DAL.csproj.CoreCompileInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/obj/Debug/netcoreapp2.2/DAL.AssemblyInfoInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/obj/Debug/netcoreapp2.2/DAL.AssemblyInfo.cs
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/obj/Debug/netcoreapp2.2/DAL.csproj.CopyComplete
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/obj/Debug/netcoreapp2.2/DAL.dll
+/home/fronox/Education/5 course/Enterprise/VisualCards/DAL/obj/Debug/netcoreapp2.2/DAL.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/bin/Debug/netcoreapp2.2/DAL.deps.json
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/bin/Debug/netcoreapp2.2/DAL.dll
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/bin/Debug/netcoreapp2.2/DAL.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/bin/Debug/netcoreapp2.2/Domain.dll
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/bin/Debug/netcoreapp2.2/Domain.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/obj/Debug/netcoreapp2.2/DAL.csprojAssemblyReference.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/obj/Debug/netcoreapp2.2/DAL.csproj.CoreCompileInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/obj/Debug/netcoreapp2.2/DAL.AssemblyInfoInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/obj/Debug/netcoreapp2.2/DAL.AssemblyInfo.cs
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/obj/Debug/netcoreapp2.2/DAL.csproj.CopyComplete
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/obj/Debug/netcoreapp2.2/DAL.dll
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/DAL/obj/Debug/netcoreapp2.2/DAL.pdb
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/bin/Debug/netcoreapp2.2/DAL.deps.json
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/bin/Debug/netcoreapp2.2/DAL.dll
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/bin/Debug/netcoreapp2.2/DAL.pdb
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/bin/Debug/netcoreapp2.2/Domain.dll
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/bin/Debug/netcoreapp2.2/Domain.pdb
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.csprojAssemblyReference.cache
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.csproj.CoreCompileInputs.cache
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.AssemblyInfoInputs.cache
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.AssemblyInfo.cs
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.csproj.CopyComplete
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.dll
+/Users/ragemax/Desktop/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/bin/Debug/netcoreapp2.2/DAL.deps.json
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/bin/Debug/netcoreapp2.2/DAL.dll
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/bin/Debug/netcoreapp2.2/DAL.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/bin/Debug/netcoreapp2.2/Domain.dll
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/bin/Debug/netcoreapp2.2/Domain.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.csprojAssemblyReference.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.csproj.CoreCompileInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.AssemblyInfoInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.AssemblyInfo.cs
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.csproj.CopyComplete
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.dll
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/DAL/obj/Debug/netcoreapp2.2/DAL.pdb

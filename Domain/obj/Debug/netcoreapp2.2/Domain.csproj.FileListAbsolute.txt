@@ -1,0 +1,36 @@
+/home/fronox/Education/5 course/Enterprise/VisualCards/Domain/bin/Debug/netcoreapp2.2/Domain.deps.json
+/home/fronox/Education/5 course/Enterprise/VisualCards/Domain/bin/Debug/netcoreapp2.2/Domain.dll
+/home/fronox/Education/5 course/Enterprise/VisualCards/Domain/bin/Debug/netcoreapp2.2/Domain.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCards/Domain/obj/Debug/netcoreapp2.2/Domain.csprojAssemblyReference.cache
+/home/fronox/Education/5 course/Enterprise/VisualCards/Domain/obj/Debug/netcoreapp2.2/Domain.csproj.CoreCompileInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCards/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfoInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCards/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfo.cs
+/home/fronox/Education/5 course/Enterprise/VisualCards/Domain/obj/Debug/netcoreapp2.2/Domain.dll
+/home/fronox/Education/5 course/Enterprise/VisualCards/Domain/obj/Debug/netcoreapp2.2/Domain.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/Domain/bin/Debug/netcoreapp2.2/Domain.deps.json
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/Domain/bin/Debug/netcoreapp2.2/Domain.dll
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/Domain/bin/Debug/netcoreapp2.2/Domain.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/Domain/obj/Debug/netcoreapp2.2/Domain.csprojAssemblyReference.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/Domain/obj/Debug/netcoreapp2.2/Domain.csproj.CoreCompileInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfoInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfo.cs
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/Domain/obj/Debug/netcoreapp2.2/Domain.dll
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI/Domain/obj/Debug/netcoreapp2.2/Domain.pdb
+/Users/ragemax/Desktop/VisualCardsAPI-master/Domain/bin/Debug/netcoreapp2.2/Domain.deps.json
+/Users/ragemax/Desktop/VisualCardsAPI-master/Domain/bin/Debug/netcoreapp2.2/Domain.dll
+/Users/ragemax/Desktop/VisualCardsAPI-master/Domain/bin/Debug/netcoreapp2.2/Domain.pdb
+/Users/ragemax/Desktop/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.csprojAssemblyReference.cache
+/Users/ragemax/Desktop/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.csproj.CoreCompileInputs.cache
+/Users/ragemax/Desktop/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfoInputs.cache
+/Users/ragemax/Desktop/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfo.cs
+/Users/ragemax/Desktop/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.dll
+/Users/ragemax/Desktop/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/bin/Debug/netcoreapp2.2/Domain.deps.json
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/bin/Debug/netcoreapp2.2/Domain.dll
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/bin/Debug/netcoreapp2.2/Domain.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.csprojAssemblyReference.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.csproj.CoreCompileInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfoInputs.cache
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfo.cs
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.dll
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.pdb
