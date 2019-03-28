@@ -70,8 +70,7 @@ namespace DAL
 
         public List<Card> GetCardsFromCol(int colId)
         {
-            string sqlSelectCards = "SELECT cards.id, cards.column_id, cards.title, cards.descr "+ 
-                                    $"FROM columns JOIN cards ON {colId} = cards.column_id ORDER BY cards.id";
+            string sqlSelectCards = $"SELECT cards.id, cards.column_id, cards.title, cards.descr FROM columns JOIN cards ON columns.id = cards.column_id WHERE cards.column_id = {colId} ORDER BY cards.id";
             var rawCards = QueryDB(sqlSelectCards).Rows;
             List<Card>cardList = new List<Card>();
             for(int i = 0; i < rawCards.Count; i++)

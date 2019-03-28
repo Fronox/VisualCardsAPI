@@ -22,6 +22,13 @@ namespace VisualCardsAPI.Controllers
             var savedColumn = _columnBll.CreateNewItem(column);
             return savedColumn;
         }
+        
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] Column column)
+        {
+            column.ColumnId = id;
+            _columnBll.UpdateItem(column);
+        }
 
         [HttpDelete("{id}")]
         public void Delete(int id)

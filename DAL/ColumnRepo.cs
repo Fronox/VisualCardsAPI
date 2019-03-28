@@ -17,10 +17,9 @@ namespace DAL
             var colTitle = rawCol[1].ToString();
             var cardList = _cardRepo.GetCardsFromCol(colId);        
             return new Column(cardList, colId, colTitle);
-            //throw new System.NotImplementedException();
         }
 
-        public override Column SaveItem(Column column)
+        public override Column SaveItem(Column column) //TODO: Add column.cardList in DB
         {
             var sqlInsertColumn = $"INSERT INTO columns (title) VALUES (\"{column.Title}\")";
             int id = InsertIntoDB(sqlInsertColumn);
