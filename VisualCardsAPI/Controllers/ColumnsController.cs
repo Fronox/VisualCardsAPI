@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using BLL;
 using Domain;
 using Microsoft.AspNetCore.Mvc;
@@ -14,6 +15,12 @@ namespace VisualCardsAPI.Controllers
         public ActionResult<Column> Get(int id)
         {
             return _columnBll.GetItemById(id);
+        }
+
+        [HttpGet]
+        public ActionResult<IEnumerable<Column>> Get()
+        {
+            return new ActionResult<IEnumerable<Column>>(_columnBll.GetAllItems());
         }
 
         [HttpPost]

@@ -48,8 +48,8 @@ namespace DAL
             var sqlDeleteString = $"SELECT * FROM cards WHERE id = {id}";
             var res = QueryDB(sqlDeleteString);
             var data = res.Rows[0].ItemArray;
-            var card = new Card(Convert.ToInt32(data[0]), Convert.ToInt32(data[3]), 
-                (string) data[1], (string) data[2]);
+            var card = new Card(Convert.ToInt32(data[0]), (string) data[1],
+                (string) data[2], Convert.ToInt32(data[3]));
             return card;
         }
         
@@ -60,8 +60,8 @@ namespace DAL
             var resList = new List<Card>();
             foreach (DataRow row in rawList.Rows)
             {
-                var card = new Card(Convert.ToInt32(row[0]), Convert.ToInt32(row[3]), 
-                    (string) row[1], (string) row[2]);
+                var card = new Card(Convert.ToInt32(row[0]), (string) row[1], 
+                    (string) row[2], Convert.ToInt32(row[3]));
                 resList.Add(card);
             }
             
@@ -70,14 +70,30 @@ namespace DAL
 
         public List<Card> GetCardsFromCol(int colId)
         {
-            string sqlSelectCards = $"SELECT cards.id, cards.column_id, cards.title, cards.descr FROM columns JOIN cards ON columns.id = cards.column_id WHERE cards.column_id = {colId} ORDER BY cards.id";
+            string sqlSelectCards = $"SELECT * FROM cards WHERE column_id = {colId} ORDER BY id";
             var rawCards = QueryDB(sqlSelectCards).Rows;
             List<Card>cardList = new List<Card>();
             for(int i = 0; i < rawCards.Count; i++)
             {
                 var rawCard = rawCards[i].ItemArray;
-                var card = new Card(Convert.ToInt32(rawCard[0]), Convert.ToInt32(rawCard[1]), 
-                    rawCard[2].ToString(), rawCard[3].ToString());
+                var card = new Card(Convert.ToInt32(rawCard[0]), rawCard[1].ToString(), 
+                    rawCard[2].ToString(), Convert.ToInt32(rawCard[3]));
+                cardList.Add(card);
+            }
+
+            return cardList;
+        }
+
+        public IEnumerable<Card> GetCardsWithTitle(string title)
+        {
+            string sqlSelectCardsWithString = $"SELECT * FROM cards WHERE title = \"{title}\" ORDER BY id";
+            var rawRes = QueryDB(sqlSelectCardsWithString).Rows;
+            List<Card> cardList = new List<Card>();
+            foreach (DataRow dataRow in rawRes)
+            {
+                var rawCard = dataRow.ItemArray;
+                var card = new Card(Convert.ToInt32(rawCard[0]), rawCard[1].ToString(),
+                    rawCard[2].ToString(), Convert.ToInt32(rawCard[3]));
                 cardList.Add(card);
             }
 

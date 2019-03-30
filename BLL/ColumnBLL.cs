@@ -26,14 +26,14 @@ namespace BLL
             return _columnRepo.DeleteItem(id);
         }
 
-        public override Column UpdateItem(Column card)
+        public override Column UpdateItem(Column column)
         {
-            throw new System.NotImplementedException();
+            return _columnRepo.UpdateItem(column);
         }
 
         public override IEnumerable<Column> GetAllItems()
         {
-            throw new System.NotImplementedException();
+            return _columnRepo.GetAllItems();
         }
     }
 }

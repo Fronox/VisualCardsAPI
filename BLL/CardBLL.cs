@@ -43,5 +43,10 @@ namespace BLL
         {
             return _cardRepo.GetAllItems();
         }
+
+        public IEnumerable<Card> GetItemsWithTitle(string title)
+        {
+            return _cardRepo.GetCardsWithTitle(title);
+        }
     }
 }

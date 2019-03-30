@@ -15,7 +15,7 @@ namespace DAL
         public abstract T GetItemById(int id);
         public abstract T SaveItem(T column);
         public abstract int DeleteItem(int id);
-        public abstract T UpdateItem(T item);
+        public abstract T UpdateItem(T card);
         public abstract IEnumerable<T> GetAllItems();
 
         protected DataTable QueryDB(string sqlString)

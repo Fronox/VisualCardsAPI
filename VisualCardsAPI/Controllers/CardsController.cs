@@ -48,5 +48,13 @@ namespace VisualCardsAPI.Controllers
         {
             _cardBll.DeleteItemById(id);
         }
+        
+        //GET all cards with this title
+        [HttpGet("search")]
+        public ActionResult<IEnumerable<Card>> Get([FromQuery(Name="title")] string title)
+        {
+            return new ActionResult<IEnumerable<Card>>(_cardBll.GetItemsWithTitle(title));
+        }
+        
     }
 }

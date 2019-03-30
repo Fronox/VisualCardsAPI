@@ -9,7 +9,7 @@ namespace Domain
         public string Description { get; }
         public int ColumnId { get; set; }
 
-        public Card(int cardId = -1, int columnId = -1, string title = "", string description = "")
+        public Card(int cardId = -1, string title = "", string description = "", int columnId = -1)
         {
             Title = title;
             Description = description;
