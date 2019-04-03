@@ -34,3 +34,6 @@
 /home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfo.cs
 /home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.dll
 /home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.pdb
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/bin/Debug/netcoreapp2.2/Newtonsoft.Json.dll
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/bin/Debug/netcoreapp2.2/Newtonsoft.Json.xml
+/home/fronox/Education/5 course/Enterprise/VisualCardsAPI-master/Domain/obj/Debug/netcoreapp2.2/Domain.csproj.CopyComplete

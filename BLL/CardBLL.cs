@@ -7,16 +7,17 @@ namespace BLL
 {
     public class CardBLL : AbstractBLL<Card>
     {
-        private readonly CardRepo _cardRepo;
+        //private readonly CardRepo _cardRepo;
+        private readonly CardDapper _cardRepo;
         
         public CardBLL()
         {
-            _cardRepo = new CardRepo();
+            //_cardRepo = new CardRepo();
+            _cardRepo = new CardDapper();
         }
 
         public override Card GetItemById(int id)
         {
-            //var card = new Card(1, "2", "3");
             var card = _cardRepo.GetItemById(id);
             return card;
         }
@@ -39,7 +40,7 @@ namespace BLL
             return updatedCard;
         }
 
-        public override IEnumerable<Card> GetAllItems()
+        public override IEnumerable<Card> GetAllItems() //useless
         {
             return _cardRepo.GetAllItems();
         }

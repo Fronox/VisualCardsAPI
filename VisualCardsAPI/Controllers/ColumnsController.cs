@@ -11,11 +11,11 @@ namespace VisualCardsAPI.Controllers
     {
         private ColumnBLL _columnBll = new ColumnBLL();
 
-        [HttpGet("{id}")]
+        /*[HttpGet("{id}")]
         public ActionResult<Column> Get(int id)
         {
             return _columnBll.GetItemById(id);
-        }
+        }*/
 
         [HttpGet]
         public ActionResult<IEnumerable<Column>> Get()
@@ -30,12 +30,12 @@ namespace VisualCardsAPI.Controllers
             return savedColumn;
         }
         
-        [HttpPut("{id}")]
+        /*[HttpPut("{id}")]
         public void Put(int id, [FromBody] Column column)
         {
             column.ColumnId = id;
             _columnBll.UpdateItem(column);
-        }
+        }*/
 
         [HttpDelete("{id}")]
         public void Delete(int id)

@@ -9,7 +9,7 @@ namespace DAL
     public class ColumnRepo : Repo<Column>
     {
         CardRepo _cardRepo = new CardRepo();
-        public override Column GetItemById(int id)
+        public override Column GetItemById(int id) //useless
         {
             var sqlSelectColumn = $"SELECT * FROM columns WHERE id = {id}";
             var res = QueryDB(sqlSelectColumn);
@@ -20,7 +20,7 @@ namespace DAL
             return new Column(cardList, colId, colTitle);
         }
 
-        public override Column SaveItem(Column column) //TODO: Add column.cardList in DB
+        public override Column SaveItem(Column column)
         {
             var sqlInsertColumn = $"INSERT INTO columns (title) VALUES (\"{column.Title}\")";
             int id = InsertIntoDB(sqlInsertColumn);
@@ -42,7 +42,7 @@ namespace DAL
             return id;
         }
 
-        public override Column UpdateItem(Column column)
+        public override Column UpdateItem(Column column)//useless
         {
             var sqlUpdateColTitle = $"UPDATE columns SET title = \"{column.Title}\" WHERE id = {column.ColumnId}";
             QueryDB(sqlUpdateColTitle);

@@ -7,9 +7,10 @@ namespace BLL
 {
     public class ColumnBLL : AbstractBLL<Column>
     {
-        private ColumnRepo _columnRepo = new ColumnRepo();
+        //private ColumnRepo _columnRepo = new ColumnRepo();
+        private ColumnDapper _columnRepo = new ColumnDapper();
         
-        public override Column GetItemById(int id)
+        public override Column GetItemById(int id)//useless
         {
             var col = _columnRepo.GetItemById(id);
             return col;
@@ -26,7 +27,7 @@ namespace BLL
             return _columnRepo.DeleteItem(id);
         }
 
-        public override Column UpdateItem(Column column)
+        public override Column UpdateItem(Column column) //useless
         {
             return _columnRepo.UpdateItem(column);
         }

@@ -16,13 +16,13 @@ namespace DAL
 {
     public class CardRepo : Repo<Card>
     {        
-        public override Card SaveItem(Card column)
+        public override Card SaveItem(Card card)
         {
             var sqlInsertString = "INSERT INTO cards (title, descr, column_id) VALUES " +
-                                  $"(\"{column.Title}\", \"{column.Description}\", \"{column.ColumnId}\")";
+                                  $"(\"{card.Title}\", \"{card.Description}\", \"{card.ColumnId}\")";
             int id = InsertIntoDB(sqlInsertString);
-            column.CardId = id;
-            return column;
+            card.CardId = id;
+            return card;
         }
 
         public override int DeleteItem(int id)
@@ -53,7 +53,7 @@ namespace DAL
             return card;
         }
         
-        public override IEnumerable<Card> GetAllItems()
+        public override IEnumerable<Card> GetAllItems() //useless
         {
             var sqlSelectAllCards = "SELECT * FROM cards ORDER BY cards.id";
             var rawList = QueryDB(sqlSelectAllCards);
@@ -68,9 +68,9 @@ namespace DAL
             return resList;
         }
 
-        public List<Card> GetCardsFromCol(int colId)
+        public List<Card> GetCardsFromCol(int cardId)
         {
-            string sqlSelectCards = $"SELECT * FROM cards WHERE column_id = {colId} ORDER BY id";
+            string sqlSelectCards = $"SELECT * FROM cards WHERE column_id = {cardId} ORDER BY id";
             var rawCards = QueryDB(sqlSelectCards).Rows;
             List<Card>cardList = new List<Card>();
             for(int i = 0; i < rawCards.Count; i++)

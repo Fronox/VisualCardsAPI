@@ -30,6 +30,10 @@
   "frameworks": {
     "netcoreapp2.2": {
       "dependencies": {
+        "Dapper": {
+          "target": "Package",
+          "version": "[1.60.6, )"
+        },
         "Microsoft.Extensions.Configuration.Json": {
           "target": "Package",
           "version": "[2.2.0, )"

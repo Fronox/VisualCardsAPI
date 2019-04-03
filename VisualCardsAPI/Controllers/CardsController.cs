@@ -10,13 +10,6 @@ namespace VisualCardsAPI.Controllers
     public class CardsController : ControllerBase
     {
         private CardBLL _cardBll = new CardBLL();
-        
-        // GET api/cards
-        [HttpGet]
-        public ActionResult<IEnumerable<Card>> Get()
-        {
-            return new ActionResult<IEnumerable<Card>>(_cardBll.GetAllItems());
-        }
 
         // GET api/cards/id
         [HttpGet("{id}")]
